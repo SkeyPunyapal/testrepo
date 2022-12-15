@@ -10,9 +10,16 @@
 
 <body>
     <h1>hello world</h1>
-    <?php
-    echo "text from php";
-    ?>
+    <nobr>
+        <?php
+        echo "text from php <br>";
+        for ($i = 0; $i < 10; $i++) {
+        ?>
+            <h1><?= $i ?></h1>
+        <?php
+        }
+        ?>
+    </nobr>
 </body>
 
 </html>
