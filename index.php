@@ -12,12 +12,11 @@
     <h1>hello world</h1>
     <nobr>
         <?php
-        echo "text from php <br>";
-        for ($i = 0; $i < 10; $i++) {
-        ?>
-            <h1><?= $i ?></h1>
-        <?php
+        echo "text from php <br> <h1>";
+        foreach (range(1, 10) as $value) {
+            echo "$value,";
         }
+        echo '</h1>';
         ?>
     </nobr>
 </body>
