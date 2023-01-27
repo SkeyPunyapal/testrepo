@@ -9,14 +9,12 @@
 </head>
 
 <body>
-    <h1>hello world</h1>
+    <h1>hello world!</h1>
     <nobr>
         <?php
         echo "text from php <br>";
         for ($i = 0; $i < 10; $i++) {
-        ?>
-            <h1><?= $i ?></h1>
-        <?php
+            echo "<h1>$i</h1>";
         }
         ?>
     </nobr>
