@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h1>hello world</h1>
+    <h1>hello world!</h1>
     <nobr>
         <?php
         echo "text from php <br> <h1>";
